@@ -32,5 +32,3 @@ Open the Windows Command Prompt (cmd) and run the following command:
 Note: to remove the virtual drive you can run `SUBST L: /d`.
 
 Luca P.
-
-Luca P.
