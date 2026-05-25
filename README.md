@@ -14,4 +14,23 @@ Additionally, aside from the header modifications, the whole zLib library code w
 
 All the modifications to the original zLib source code were enclosed by the "//LPI" tag.
 
+**Important note on project structure:**
+The Visual Studio project for zLibDll is hardcoded to search for dependencies using absolute paths starting from the root of a virtual L: drive. The expected directory structure is as follows:
+
+```text
+L:\
+  |-- Include\
+  |-- Library\
+  |-- zLibDll\
+```
+   
+If you want to compile the zLibDll project without reconfiguring the Visual Studio settings, you can map a local folder to a virtual L: drive using the Windows SUBST command:
+Create a directory on your local drive (for example, C:\DEV).
+Download and extract all the required repositories inside that directory.
+Open the Windows Command Prompt (cmd) and run the following command:
+`SUBST L: C:\DEV`
+Note: to remove the virtual drive you can run `SUBST L: /d`.
+
+Luca P.
+
 Luca P.
