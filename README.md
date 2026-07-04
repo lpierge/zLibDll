@@ -28,6 +28,6 @@ Create a directory on your local drive (for example, C:\DEV).
 Download and extract all the required repositories inside that directory.
 Open the Windows Command Prompt (cmd) and run the following command:
 `SUBST L: C:\DEV`
-Note: to remove the virtual drive you can run `SUBST L: /d`.
+(to remove the virtual drive, use `SUBST L: /d`)
 
 Luca P.
