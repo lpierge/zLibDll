@@ -27,7 +27,9 @@
   Comments) 1950 to 1952 in the files ftp://ds.internic.net/rfc/rfc1950.txt
   (zlib format), rfc1951.txt (deflate format) and rfc1952.txt (gzip format).
 
-## Modifications and Extensions
+  --------------------------------------------------------------------------
+
+Modifications and Extensions
 
 All custom code, modifications, and enhancements added to the original zLib source code are copyright (c) Luca Piergentili and are distributed under the terms of the MIT License:
 
