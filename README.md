@@ -15,12 +15,14 @@ Additionally, aside from the header modifications, the whole zLib library code w
 All the modifications to the original zLib source code were enclosed by the "//LPI" tag.
 
 **Project and dependencies download:**
+
 Source files that are not part of the core **zLibDll** project but are used by it as external dependencies can be found in the  **Include** repository. Therefore, to compile this project, you need to download the following components:
 
 -   [zLibDll](https://github.com/lpierge/zLibDll)  — this project
 -   [Include](https://github.com/lpierge/Include)  — Shared header (.h) files
 
 **Important note on project structure:**
+
 The Visual Studio project for **zLibDll** is hardcoded to search for dependencies using absolute paths starting from the root of a virtual L: drive. The expected directory structure is as follows:
 
 ```text
