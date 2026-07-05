@@ -20,14 +20,18 @@ The Visual Studio project for zLibDll is hardcoded to search for dependencies us
 ```text
 L:\
   |-- Include\
+  |-- Library\
   |-- zLibDll\
+  |-- Lib\
 ```
    
-If you want to compile the zLibDll project without reconfiguring the Visual Studio settings, you can map a local folder to a virtual L: drive using the Windows SUBST command:
-Create a directory on your local drive (for example, C:\DEV).
+If you want to compile the zLibDll project without reconfiguring the Visual Studio settings, you can map a local folder to a virtual L: drive using the Windows SUBST command.
+
+Create a directory on your local drive, for example, C:\DEV.
+
 Download and extract all the required repositories inside that directory.
+
 Open the Windows Command Prompt (cmd) and run the following command:
 `SUBST L: C:\DEV`
-(to remove the virtual drive, use `SUBST L: /d`)
 
 Luca P.
