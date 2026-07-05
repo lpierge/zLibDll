@@ -1,4 +1,4 @@
-Back in 1996, I wrote this (zLibdll) customized version of the original zLib library (version 1.1.3), which is copyright (c) 1995-1998 by Jean-loup Gailly and Mark Adler .
+Back in 1996, I wrote this (`zLibDll`) customized version of the original zLib library (version 1.1.3), which is copyright (c) 1995-1998 by Jean-loup Gailly and Mark Adler .
 
 The purpose of the customization project was to use the original zLib as a base library to compress various input files into a single output file, and then handle the extraction in a controlled manner.
 
@@ -14,17 +14,24 @@ Additionally, aside from the header modifications, the whole zLib library code w
 
 All the modifications to the original zLib source code were enclosed by the "//LPI" tag.
 
+**Project and dependencies download:**
+Source files that are not part of the core  `zLibDll`  project but are used by it as external dependencies can be found in the  **Include** repository. Therefore, to compile this project, you need to download the following components:
+
+-   [zLibDll](https://github.com/lpierge/zLibDll)  — this project
+-   [Include](https://github.com/lpierge/Include)  — Shared header (.h) files
+
 **Important note on project structure:**
 The Visual Studio project for zLibDll is hardcoded to search for dependencies using absolute paths starting from the root of a virtual L: drive. The expected directory structure is as follows:
 
 ```text
 L:\
   |-- Include\
-  |-- Library\
   |-- zLibDll\
   |-- Lib\
 ```
-   
+
+The L:\Lib directory must be created manually because it is the directory where the output DLL will be copied and where projects from other repositories look for libraries and DLLs to compile and link.
+
 If you want to compile the zLibDll project without reconfiguring the Visual Studio settings, you can map a local folder to a virtual L: drive using the Windows SUBST command.
 
 Create a directory on your local drive, for example, C:\DEV.
