@@ -32,7 +32,7 @@ L:\
   |-- Lib\
 ```
 
-The `L:\Lib` directory must be created manually because it is the directory where the output DLL will be copied and where projects from other repositories look for libraries and DLLs to compile and link.
+The L:\Lib directory must be created manually because it is the directory where the output DLL will be copied and where projects from other repositories look for libraries and DLLs to compile and link.
 
 If you want to compile the **zLibDll** project without reconfiguring the Visual Studio settings, you can map a local folder to a virtual L: drive using the Windows SUBST command.
 
