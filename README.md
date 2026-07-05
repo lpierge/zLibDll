@@ -1,4 +1,4 @@
-Back in 1996, I wrote this (`zLibDll`) customized version of the original zLib library (version 1.1.3), which is copyright (c) 1995-1998 by Jean-loup Gailly and Mark Adler .
+Back in 1996, I wrote this (**zLibDll**) customized version of the original zLib library (version 1.1.3), which is copyright (c) 1995-1998 by Jean-loup Gailly and Mark Adler .
 
 The purpose of the customization project was to use the original zLib as a base library to compress various input files into a single output file, and then handle the extraction in a controlled manner.
 
@@ -15,13 +15,13 @@ Additionally, aside from the header modifications, the whole zLib library code w
 All the modifications to the original zLib source code were enclosed by the "//LPI" tag.
 
 **Project and dependencies download:**
-Source files that are not part of the core  `zLibDll`  project but are used by it as external dependencies can be found in the  **Include** repository. Therefore, to compile this project, you need to download the following components:
+Source files that are not part of the core **zLibDll** project but are used by it as external dependencies can be found in the  **Include** repository. Therefore, to compile this project, you need to download the following components:
 
 -   [zLibDll](https://github.com/lpierge/zLibDll)  — this project
 -   [Include](https://github.com/lpierge/Include)  — Shared header (.h) files
 
 **Important note on project structure:**
-The Visual Studio project for zLibDll is hardcoded to search for dependencies using absolute paths starting from the root of a virtual L: drive. The expected directory structure is as follows:
+The Visual Studio project for **zLibDll** is hardcoded to search for dependencies using absolute paths starting from the root of a virtual L: drive. The expected directory structure is as follows:
 
 ```text
 L:\
