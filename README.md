@@ -1,4 +1,4 @@
-Back in 1996, I wrote this (zLibdll) customized version of the original zLib library (version 1.1.3), which is copyright (C) 1995-1998 by Jean-loup Gailly and Mark Adler .
+Back in 1996, I wrote this (zLibdll) customized version of the original zLib library (version 1.1.3), which is copyright (c) 1995-1998 by Jean-loup Gailly and Mark Adler .
 
 The purpose of the customization project was to use the original zLib as a base library to compress various input files into a single output file, and then handle the extraction in a controlled manner.
 
