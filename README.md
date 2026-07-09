@@ -1,5 +1,5 @@
 ## Overview
-Back in 1996, I wrote this (**zLibDll**) customized version of the original zLib library (version 1.1.3), which is copyright (c) 1995-1998 by Jean-loup Gailly and Mark Adler .
+Back in 1996, I wrote this (**zLibDll**) customized version of the original zLib library (version 1.1.3), which is copyright (c) 1995-1998 by Jean-loup Gailly and Mark Adler.
 
 The purpose of the customization project was to use the original zLib as a base library to compress various input files into a single output file, and then handle the extraction in a controlled manner.
 
@@ -44,8 +44,8 @@ L:\
 The L:\Lib directory must be created manually because it is the directory where the output DLL will be copied and where projects from other repositories look for libraries and DLLs to compile and link.
 
 Instead of changing the Visual Studio settings in the project file, I recommend mapping a local folder to a virtual L: drive with the Windows SUBST command:
-- Create a directory on your local drive, for example,  `C:\DEV`.
+- Create a directory on your local drive, for example `C:\DEV`.
 - Download and extract all the repositories inside that directory.
-- Open the Windows Command Prompt (press  `Win + R`  to open the Run dialog, type  `cmd.exe`  and press  `Enter`) and from the Console run the following command:  `SUBST L: C:\DEV`
+- Open the Windows Command Prompt (press `Win + R` to open the Run dialog, type `cmd.exe` and press `Enter`) and from the Console run the following command: `SUBST L: C:\DEV`
 
 Luca P.
