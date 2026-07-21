@@ -1,5 +1,5 @@
 ## Overview
-Back in 1996, I wrote this (**zLibDll**) customized version of the original zLib library (version 1.1.3), which is copyright (c) 1995-1998 by Jean-loup Gailly and Mark Adler.
+Back in 1996, I customized the original version of the zLib library (version 1.1.3), which is copyright (c) 1995-1998 by Jean-loup Gailly and Mark Adler.
 
 The purpose of the customization project was to use the original zLib as a base library to compress various input files into a single output file, and then handle the extraction in a controlled manner.
 
@@ -11,7 +11,7 @@ In short, if a .gzw file (effectively an inflated .gz) is used as an object cont
 
 The final result (the .gzw output file) was therefore a .gz file containing one or more compressed files inside it, with all the files appended after creating the first one, and all equipped with an additional header (the GZW header), used by the interface to browse and read its contents.
 
-Additionally, aside from the header modifications, the whole zLib library code was reconfigured to be compiled as a Windows DLL using the Visual C++ 4.2 (keep in mind the date: 1996).
+Additionally, aside from the header modifications, the whole zLib library code was reconfigured to be compiled as a Windows DLL using the Visual C++ 4.2 (keep in mind the date, 1996).
 
 All the modifications to the original zLib source code were enclosed by the "//LPI" tag.
 
