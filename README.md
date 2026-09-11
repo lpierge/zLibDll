@@ -1,3 +1,4 @@
+
 ## Overview
 Back in 1996, I customized the original version of the zLib library (version 1.1.3), which is copyright (c) 1995-1998 by Jean-loup Gailly and Mark Adler.
 
@@ -14,6 +15,8 @@ The final result (the .gzw output file) was therefore a .gz file containing one 
 Additionally, aside from the header modifications, the whole zLib library code was reconfigured to be compiled as a Windows DLL using the Visual C++ 4.2 (keep in mind the date, 1996).
 
 All the modifications to the original zLib source code were enclosed by the "//LPI" tag.
+
+The pre-compiled DLL binary files for Win32 (_brotlidll.lib_ and _brotlidll.dll_) are available [here](https://github.com/lpierge/zLibDLL/tree/main/DLL).
 
 ## Project dependencies
 Source files that are not part of the core **zLibDll** project but are used by it as external dependencies can be found in the  **Include** repository. Therefore, to compile this project, you need to download the following components:
