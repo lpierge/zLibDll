@@ -16,7 +16,7 @@ Additionally, aside from the header modifications, the whole zLib library code w
 
 All the modifications to the original zLib source code were enclosed by the "//LPI" tag.
 
-The pre-compiled DLL binary files for Win32 (_brotlidll.lib_ and _brotlidll.dll_) are available [here](https://github.com/lpierge/zLibDLL/tree/main/DLL).
+The pre-compiled DLL binary files for Win32 (_zLibdll.lib_ and _zLibdll.dll_) are available [here](https://github.com/lpierge/zLibDLL/tree/main/DLL).
 
 ## Project dependencies
 Source files that are not part of the core **zLibDll** project but are used by it as external dependencies can be found in the  **Include** repository. Therefore, to compile this project, you need to download the following components:
